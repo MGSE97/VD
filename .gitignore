@@ -1,0 +1,10 @@
+venv
+opencv
+cv5/sph*
+cv4/flow_field
+.idea
+**/__pycache__
+**/.vs
+**/x64
+**/Debug
+**/Release

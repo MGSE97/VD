@@ -1,0 +1,13 @@
+CV:
+    ✔ 1. A time series plot with approximation (gnuplot) [2] @done(20-12-08 19:26)
+    ✔ 2. Quadrilateral grid interpolation [4] @done(20-12-08 21:44)
+    ✔ 3. Gridless interpolation [4] @done(20-12-16 21:22)
+        k nearest neighbors before weight comutation on samples
+    ✔ 4. 2D vector field visualization (velocity, rotation, path lines) [6] @done(20-12-09 17:35)
+        Add rotation color for arrows
+    ✔ 5. 3D iso-surface reconstruction (Marching cubes on SPH data) [8] @done(20-12-08 21:45)
+    ✔ 7. Direct volume rendering [10] @done(20-12-10 20:33)
+        Add lambert before DVR cumulation of sample in loop
+    ✔ 8. Abstract data visualization (force directed graph layout or d3.js) [6] @done(20-12-09 20:11)
+    ✔ 9. Dimension reduction [5] @done(20-12-17 10:56)
+        Remove Group Id from csv input

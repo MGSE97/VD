@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fastmap", "fastmap\fastmap.vcxproj", "{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Debug|x64.ActiveCfg = Debug|x64
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Debug|x64.Build.0 = Debug|x64
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Debug|x86.Build.0 = Debug|Win32
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Release|x64.ActiveCfg = Release|x64
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Release|x64.Build.0 = Release|x64
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Release|x86.ActiveCfg = Release|Win32
+		{007B0D6E-E69A-47A4-B77F-D47E4C71DDF3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA314AE7-E963-4C81-9B29-CB4C7111DE2A}
+	EndGlobalSection
+EndGlobal

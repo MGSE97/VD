@@ -1,0 +1,40 @@
+**************PURPOSE*************************
+
+The program 
+* reads a file of vectors
+  (one vector per line;
+  attributes are numbers, separate by white space)
+* prints a file of vectors of the specified dimensionality
+  The new vectors correspond to projections of the old vectors,
+  such that the pair-wise distances are preserved
+  as well as possible.
+
+
+*************HOW TO USE IT********************
+
+To see a demo:
+   % make
+
+To compile:
+   % make main
+
+To run (after having compiled it):
+   % main <fname>
+Full options:
+   % main [-v] [-d <#dims>] <fname>
+where
+   -v		gives the verbose option
+   -d <#dims>	sets #dims to be the number of columns in the output
+		(default: #dims=2)
+
+***********PROGRAMMING DETAILS*****************
+
+class definitions, to implement FastMap
+    object.[ch]		objects (ie., vectors)
+    oa.[ch]		object arrays
+    vector.[ch]		vectors with length
+    matrix.[ch]		2-d matrices, with length
+
+    file.*		contains string and file routines,
+			to turn lines into objects
+			and files into object arrays.
